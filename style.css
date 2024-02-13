@@ -178,8 +178,8 @@ a {
 }
 
 .user-image img {
-  width: 400px;
-  height: 500px;
+  width: 450px;
+  height: 450px;
   padding: 2.5rem;
   filter: grayscale(1);
   transition: all 1s;
@@ -405,13 +405,14 @@ a {
   z-index: 5;
   gap: 1em;
   transition: all 0.4s;
+  max-width: 500px;
 }
 
 .project-content-left {
   left: 10%;
 }
 .project-content-right {
-  right: 1%;
+  right: -1%;
 }
 
 .project-skills-container {
@@ -472,7 +473,15 @@ a {
 #project4 {
   background-image: url(images/projects/project4.png);
   margin-left: 120px;
-  background-position: -100px;
+  background-position: 0;
+}
+#project5 {
+  background-image: url(images/projects/project5.png);
+}
+#project6 {
+  background-image: url(images/projects/project6.png);
+  margin-left: 120px;
+  background-position: 0;
 }
 /* skills section */
 .skills-container {
